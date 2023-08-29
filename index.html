@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My-Giro</title>
+  <link rel="icon" href="./img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body class="site-content">
+  <p id="top" class="visually-hidden"></p>
+  <a href="#top" class="up-btn">></a>
+  <header class="header">
+    <div class=" header__container">
+      <a href="#" class="header__logo card">
+        <img src="./img/logo-black.png" alt="Логотип my-giro">
+      </a>
+
+      <address class="header__address">
+        <a href="tel:+74953225448" class="header__address__link grey">+7 495 322-54-48</a>
+      </address>
+
+      <button class="btn-reset btn header__call-btn">
+        Обратный звонок
+      </button>
+
+      <button aria-label="Поиск" class="btn-reset grey header__btn__open">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="7.56126" height="1.89031"
+            transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6062 17.3762)" fill="#333333" />
+          <path
+            d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z"
+            stroke="#333333" stroke-width="2" />
+        </svg>
+      </button>
+      <!-- <div aria-label="Форма поиска" class="header__form">
+        <div class="header__form__left">
+          <input class="form__input" type="text" placeholder="Что будем искать?">
+          <button aria-label="Найти" class="btn-reset btn-search">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="7.56126" height="1.89031"
+                transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6062 17.3762)" fill="#333333" />
+              <path
+                d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z"
+                stroke="#333333" stroke-width="2" />
+            </svg>
+          </button>
+        </div>
+        <button aria-label="Закрыть форму" class="btn-reset btn-close">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8.9541" y="7.30432" width="11.6645" height="2.33291" transform="rotate(45 8.9541 7.30432)"
+              fill="#CACACA" />
+            <rect x="7.30469" y="15.5524" width="11.6645" height="2.33291" transform="rotate(-45 7.30469 15.5524)"
+              fill="#CACACA" />
+            <circle cx="12" cy="12" r="11" stroke="#CACACA" stroke-width="2" />
+          </svg>
+        </button>
+
+      </div> -->
+    </div>
+  </header>
+  <main class="main">
+
+    <h1 class="visually-hidden">my-giro</h1>
+    
+    <section aria-label="Слайдер" class="section">
+      <div class="container">
+        <div class="slider__content">
+          <div class="swiper hero__swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide1">
+                <div class="swiper-slide__content">
+                  <h2 class="slider__title">
+                    Большой ассортимент
+                  </h2>
+                  <p class="slider__descr">
+                    Есть над чем задуматься: базовые сценарии поведения пользователей и&nbsp;по&nbsp;сей день остаются
+                    уделом
+                    проектантов
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide slide2">
+                <div class="swiper-slide__content">
+                  <h2 class="slider__title">
+                    Гарантия качества
+                  </h2>
+                  <p class="slider__descr">
+                    Есть над чем задуматься: базовые сценарии поведения пользователей и&nbsp;по&nbsp;сей день остаются
+                    уделом
+                    проектантов
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide slide3">
+                <div class="swiper-slide__content">
+                  <h2 class="slider__title">
+                    Быстрая доставка
+                  </h2>
+                  <p class="slider__descr">
+                    Есть над чем задуматься: базовые сценарии поведения пользователей и&nbsp;по&nbsp;сей день остаются
+                    уделом
+                    проектантов
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination hero__pagination"></div>
+          </div>
+          <button class="slider__btn big-btn btn-reset btn">
+            Посмотреть каталог
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h3 class="section__title">
+          Особенности
+        </h3>
+        <ul class="list-reset features__list flex">
+          <li class="features__items feature-1 card">
+            <div class="features__descr">
+              Идейные соображения высшего порядка,
+              а также постоянный количественный рост
+            </div>
+          </li>
+          <li class="features__items feature-2 card">
+            <div class="features__descr">
+              Идейные соображения высшего порядка,
+              а также постоянный количественный рост
+            </div>
+          </li>
+          <li class="features__items feature-3 card">
+            <div class="features__descr">
+              Идейные соображения высшего порядка,
+              а также постоянный количественный рост
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="articles">
+      <div class="container">
+        <h3 class="section__title">Наши консультанты</h3>
+        <ul class="articles__list list-reset">
+          <li class="articles__item">
+            <article class="blog-preview seller-1">
+              <img src="./img/seller-1.png" alt="Blog Photo 1">
+              <div class="blog-preview__content">
+                <p class="blog-preview__descr">
+                  Привет! Я - Гоша, эксперт по гироскутерам. Я знаю о них все и готов помочь вам выбрать лучший
+                  гироскутер исходя из ваших потребностей.
+                </p>
+                <button class="btn btn-reset blog-preview__btn small-btn">></button>
+              </div>
+            </article>
+          </li>
+          <li class="articles__item">
+            <article class="blog-preview seller-2">
+              <img class="blog-preview__image" src="./img/seller-2.png" alt="Blog Photo 1">
+              <div class="blog-preview__content">
+                <p class="blog-preview__descr">
+                  Привет! Меня зовут Мария, и я являюсь специалистом по электросамокатам в нашем онлайн-магазине. Я
+                  готова помочь вам выбрать и купить лучший электросамокат.
+                </p>
+                <button class="btn btn-reset blog-preview__btn small-btn">></button>
+              </div>
+
+            </article>
+          </li>
+          <li class="articles__item">
+            <article class="blog-preview seller-3">
+              <img class="blog-preview__image" src="./img/seller-3.png" alt="Blog Photo 1">
+              <div class="blog-preview__content">
+                <p class="blog-preview__descr">
+                  Привет! Меня зовут Антон, и я - большой фанат сигвеев. Я обожаю кататься на них и могу рассказать вам
+                  обо всем, что нужно знать перед покупкой сигвея.
+                </p>
+                <button class="btn btn-reset blog-preview__btn small-btn">></button>
+              </div>
+
+            </article>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h3 class="section__title">
+          Каталог
+        </h3>
+
+        <div class="filter__container">
+          <button id="filter__reset" class="btn filter__reset btn-reset">
+            Все
+          </button>
+          <div class="filter__wrapper-btn form-check form-switch">
+            <input data-filtered-type="gyroscooter" id="giroscooter-checkbox" checked type="checkbox" role="switch" class="form-check-input">
+            <label for="giroscooter-checkbox">Гироскутер</label>
+          </div>
+          <div class="filter__wrapper-btn form-check form-switch">
+            <input data-filtered-type="samokat" id="samokat-checkbox" checked type="checkbox" role="switch" class="form-check-input">
+            <label for="samokat-checkbox">Электросамокат</label>
+          </div>
+          <div class="filter__wrapper-btn form-check form-switch">
+            <input data-filtered-type="segway" id="segway-checkbox" checked type="checkbox" role="switch" class="form-check-input">
+            <label for="segway-checkbox">Сигвей</label>
+          </div>
+        </div>
+        <div class="products__list">
+          <article data-type="segway" class="products__card products-card">
+            <img src="./img/product-1.png" alt="Сигвей">
+            <div class="products-card__decr">
+              <div class="title-wrapper">
+                <h4 class="products-card__title">
+                  Ninebot mini S белый
+                </h4>
+                <div class="products-card__subtitle">
+                  Сигвей
+                </div>
+              </div>
+              <div class="price-wrapper">
+                <span class="products-card__price">
+                  40 000 ₽
+                </span>
+                <button class="btn-reset btn products-card__btn big-btn">
+                  Купить
+                </button>
+              </div>
+
+            </div>
+          </article>
+          <article data-type="gyroscooter" class="products__card products-card">
+            <img src="./img/product-2.png" alt="Гироскутер">
+            <div class="products-card__decr">
+              <div class="title-wrapper">
+                <h4 class="products-card__title">
+                  Ninebot mini S белый
+                </h4>
+                <div class="products-card__subtitle">
+                  Гироскутер
+                </div>
+              </div>
+              <div class="price-wrapper">
+                <span class="products-card__price">
+                  40 000 ₽
+                </span>
+                <button class="btn-reset btn products-card__btn big-btn">
+                  Купить
+                </button>
+              </div>
+
+            </div>
+          </article>
+          <article data-type="samokat" class="products__card products-card">
+            <img src="./img/product-3.png" alt="Гироскутер">
+            <div class="products-card__decr">
+              <div class="title-wrapper">
+                <h4 class="products-card__title">
+                  Ninebot mini S белый
+                </h4>
+                <div class="products-card__subtitle">
+                  Самокат
+                </div>
+              </div>
+              <div class="price-wrapper">
+                <span class="products-card__price">
+                  40 000 ₽
+                </span>
+                <button class="btn-reset btn products-card__btn big-btn">
+                  Купить
+                </button>
+              </div>
+
+            </div>
+          </article>
+          <article data-type="samokat" class="products__card products-card">
+            <img src="./img/product-4.png" alt="Гироскутер">
+            <div class="products-card__decr">
+              <div class="title-wrapper">
+                <h4 class="products-card__title">
+                  Ninebot mini S белый
+                </h4>
+                <div class="products-card__subtitle">
+                  Самокат
+                </div>
+              </div>
+              <div class="price-wrapper">
+                <span class="products-card__price">
+                  40 000 ₽
+                </span>
+                <button class="btn-reset btn products-card__btn big-btn">
+                  Купить
+                </button>
+              </div>
+
+            </div>
+          </article>
+          <article data-type="gyroscooter" class="products__card products-card">
+            <img src="./img/product-5.png" alt="Гироскутер">
+            <div class="products-card__decr">
+              <div class="title-wrapper">
+                <h4 class="products-card__title">
+                  Ninebot mini S белый
+                </h4>
+                <div class="products-card__subtitle">
+                  Гироскутер
+                </div>
+              </div>
+              <div class="price-wrapper">
+                <span class="products-card__price">
+                  40 000 ₽
+                </span>
+                <button class="btn-reset btn products-card__btn big-btn">
+                  Купить
+                </button>
+              </div>
+
+            </div>
+          </article>
+
+          <article data-type="segway" class="products__card products-card">
+            <img src="./img/product-1.png" alt="Гироскутер">
+            <div class="products-card__decr">
+              <div class="title-wrapper">
+                <h4 class="products-card__title">
+                  Ninebot mini S белый
+                </h4>
+                <div class="products-card__subtitle">
+                  Сигвей
+                </div>
+              </div>
+              <div class="price-wrapper">
+                <span class="products-card__price">
+                  40 000 ₽
+                </span>
+                <button class="btn-reset btn products-card__btn big-btn">
+                  Купить
+                </button>
+              </div>
+
+            </div>
+          </article>
+
+          <article data-type="samokat" class="products__card products-card">
+            <img src="./img/product-4.png" alt="Гироскутер">
+            <div class="products-card__decr">
+              <div class="title-wrapper">
+                <h4 class="products-card__title">
+                  Ninebot mini S белый
+                </h4>
+                <div class="products-card__subtitle">
+                  Самокат
+                </div>
+              </div>
+              <div class="price-wrapper">
+                <span class="products-card__price">
+                  40 000 ₽
+                </span>
+                <button class="btn-reset btn products-card__btn big-btn">
+                  Купить
+                </button>
+              </div>
+
+            </div>
+          </article>
+
+          <article data-type="segway" class="products__card products-card">
+            <img src="./img/product-1.png" alt="Гироскутер">
+            <div class="products-card__decr">
+              <div class="title-wrapper">
+                <h4 class="products-card__title">
+                  Ninebot mini S белый
+                </h4>
+                <div class="products-card__subtitle">
+                  Сигвей
+                </div>
+              </div>
+              <div class="price-wrapper">
+                <span class="products-card__price">
+                  40 000 ₽
+                </span>
+                <button class="btn-reset btn products-card__btn big-btn">
+                  Купить
+                </button>
+              </div>
+
+            </div>
+          </article>
+
+        </div>
+        <button class="btn btn-reset btn-more big-btn">
+          Еще!
+        </button>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="brand">
+          <span class="brand__title grey">Hoverbot</span>
+          <span class="brand__title grey">Zaxboard</span>
+          <span class="brand__title grey">Razor</span>
+          <span class="brand__title grey">Halten Flash</span>
+          <span class="brand__title grey">White Siberia Luna</span>
+          <span class="brand__title grey">Halten Flash</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h3 class="section__title">Полезности</h3>
+        <ul class="articles__list list-reset">
+          <li class="articles__item useful-info">
+            <article class="blog-preview useful-info__card useful-info__card-1">
+              <div class="blog-preview__content useful-info__card-content">
+                <a href="#" class="blog-preview-link">
+                  <p class="blog-preview__descr">
+                    Правила безопасной езды в городе
+                  </p>
+                </a>
+                <button class="btn btn-reset blog-preview__btn small-btn">></button>
+              </div>
+            </article>
+          </li>
+          <li class="articles__item useful-info">
+            <article class="blog-preview useful-info__card useful-info__card-2">
+              <div class="blog-preview__content useful-info__card-content">
+                <a href="#" class="blog-preview-link">
+                  <p class="blog-preview__descr">
+                    Что делать, если случилась поломка?
+                  </p>
+                </a>
+                <button class="btn btn-reset blog-preview__btn small-btn">></button>
+
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h3 class="section__title">Мы на связи с вами :)</h3>
+        <div class="form-wrapper">
+          <form action="#" class="form feedback">
+            <h4 class="form__title">
+              Будем рады вашим отзывам и подпискам в наших соцсетях!
+            </h4>
+            <ul class="social__list list-reset flex">
+              <li class="social__item">
+                <a href="#" target="_blank" class="social__link yandex">
+                  <img src="./img/ya1.png" alt="">
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" target="_blank" class="social__link vk">
+                  <img src="./img/vk1.png" alt="">
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" target="_blank" class="social__link google">
+                  <img src="./img/g1.png" alt="">
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" target="_blank" class="social__link tele">
+                  <img src="./img/tele1.png" alt="">
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" target="_blank" class="social__link zen">
+                  <img src="./img/zen1.png" alt="">
+                </a>
+              </li>
+            </ul>
+            <textarea name="comment" class="form-textarea"
+              placeholder="тут тоже можно оставить свой отзыв..."></textarea>
+            <button class="btn btn-reset form-btn big-btn">></button>
+          </form>
+
+          <form action="#" class="form subscribe">
+            <h4 class="form__title">
+              Подпишись на выгодные предложения!
+            </h4>
+            <a href="#" class="form__logo card">
+              <img src="./img/logo-white.png" alt="Логотип my-giro">
+            </a>
+            <input type="text" placeholder="Имя" class="form__input">
+            <input type="text" placeholder="Электропочта" class="form__input">
+            <button class="btn btn-reset form-btn big-btn">></button>
+          </form>
+        </div>
+      </div>
+
+
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <a href="#" class="header__logo card">
+        <img src="./img/logo-black.png" alt="Логотип my-giro">
+      </a>
+    </div>
+  </footer>
+  <script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+
+    const swiper = new Swiper('.hero__swiper', {
+      slidesPerView: 1,
+      loop: true,
+      // пагинация
+      pagination: {
+        el: '.swiper-pagination',
+        type: "bullets",
+        clickable: true,
+      },
+    });
+
+    function getCards(input) {
+      const filteredType = input.getAttribute('data-filtered-type')
+      return document.querySelectorAll(`.products__card[data-type="${filteredType}"]`)
+    }
+
+    function setDisplayProperty(value, cards) {
+      cards.forEach((card) => {
+        card.style.display = value
+      })
+    }
+
+    const inputs = document.querySelectorAll('.filter__container input');
+    inputs.forEach((input) => {
+      input.addEventListener('change', (event) => {
+        setDisplayProperty(input.checked ? 'block' : 'none', getCards(input))
+      })
+    })
+
+    const filterResetBtn = document.getElementById('filter__reset');
+
+    filterResetBtn.addEventListener('click', () => {
+      inputs.forEach((input) => {
+        if(!input.checked) {
+        input.checked = true
+        setDisplayProperty('block', getCards(input))
+        }
+      })
+    })
+  </script>
+  <!-- <script src="./js/index.js"></script> -->
+</body>
+
+</html>
